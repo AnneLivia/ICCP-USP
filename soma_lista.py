@@ -5,7 +5,7 @@ def soma_elementos(lista):
     return soma
 
 
-lista = [7,8,65
+lista = [7,8,65]
 print("Valores da lista: \n\n")
 print(lista)
 soma = soma_elementos(lista)
