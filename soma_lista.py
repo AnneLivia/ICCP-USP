@@ -1,12 +1,7 @@
-def soma_elementos(lista):
-    soma = 0
-    for valor in lista:
-        soma = soma + valor
-    return soma
+def soma_lista(lista):
+    if(len(lista) <= 1):
+        return lista[0]
+    return lista[0] + soma_lista(lista[1:])
 
+print(soma_lista([2,2,2,2,2]))
 
-lista = [7,8,65]
-print("Valores da lista: \n\n")
-print(lista)
-soma = soma_elementos(lista)
-print("Soma dos elementos: ",soma)
